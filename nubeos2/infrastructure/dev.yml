@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ../apps/api
+      dockerfile: Dockerfile.dev
+    container_name: nubeos-api
+    ports:
+      - '3001:3001'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ../apps/api/src:/app/src
+    environment:
+      - NODE_ENV=development
+    privileged: true

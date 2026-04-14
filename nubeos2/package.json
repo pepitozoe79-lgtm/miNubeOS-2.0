@@ -1,0 +1,9 @@
+{
+  "name": "nubeos2",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @nubeos/api dev & pnpm --filter @nubeos/web dev",
+    "build": "pnpm --filter @nubeos/api build && pnpm --filter @nubeos/web build"
+  }
+}

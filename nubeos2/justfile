@@ -1,0 +1,11 @@
+dev:
+    docker compose -f infrastructure/dev.yml up -d
+    pnpm dev
+
+logs:
+    docker compose -f infrastructure/dev.yml logs -f api
+
+nuke:
+    docker compose -f infrastructure/dev.yml down -v
+    rm -rf apps/api/src/db/system.db
+    echo "💥 Sistema purgado. Listo para reconstruir."
