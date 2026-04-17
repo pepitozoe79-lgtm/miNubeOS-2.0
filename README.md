@@ -9,14 +9,6 @@ miNubeOS transforma un ordenador cualquiera (Raspberry Pi, Mini-PC, portátil vi
 
 ---
 
-## ⚠️ AVISO IMPORTANTE DE SEGURIDAD
-
-> **NUNCA EJECUTES COMANDOS `curl ... | sudo bash` DE FUENTES NO VERIFICADAS.**
->
-> Este proyecto recomienda **encarecidamente** la instalación manual o mediante paquetes verificables. Ejecutar scripts con permisos de superusuario sin revisarlos es un riesgo crítico para tu sistema.
-
----
-
 ## ✨ ¿Por qué miNubeOS?
 
 - **🖥️ Interfaz de Escritorio Real:** Arrastra y suelta archivos, menús contextuales, vista previa de imágenes y reproducción de vídeo en el navegador.
